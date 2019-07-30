@@ -6,7 +6,7 @@
     src: local('Abel Regular'), local('Abel-Regular'), url(Abel-Regular.ttf) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-  /* latin */
+  /* latin cursive */
   @font-face {
     font-family: 'Cookie';
     font-style: normal;
@@ -94,7 +94,7 @@
     src: local('Ubuntu Condensed'), local('UbuntuCondensed-Regular'), url(UbuntuCondensed-Regular.ttf) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-  /* latin-ext */
+  /* latin-ext cursvie*/
 @font-face {
     font-family: 'Niconne';
     font-style: normal;
@@ -111,6 +111,7 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
+  /* handwriting */
 @font-face {
     font-family: 'Patrick Hand SC';
     font-style: normal;
@@ -134,7 +135,7 @@
     src: local('Patrick Hand SC'), local('PatrickHandSC-Regular'), url(PatrickHandSC-Regular.ttf) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-  /* thai */
+  /* thai display */
 @font-face {
     font-family: 'Itim';
     font-style: normal;
@@ -204,5 +205,13 @@
     font-style: normal;
     font-weight: 500;
     src: local('Oswald'), local('Oswald-Regular'), url(Oswald-Regular.ttf) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lora'), local('Lora-Regular'), url(Lora-Regular.ttf) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }

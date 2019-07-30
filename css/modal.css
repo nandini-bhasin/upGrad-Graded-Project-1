@@ -13,6 +13,7 @@ h5#signInModalLabel, h5#signUpModalLabel {
     font-family: 'Oswald', sans-serif;
     font-size: x-large;
     font-weight: medium;
+    color: black;
 }
 
 /* x button to close modal */
@@ -41,6 +42,7 @@ h5#signInModalLabel, h5#signUpModalLabel {
     font-size: small;
     font-weight: 500;
     padding: 0;
+    color: black;
 }
 
 /* button at the bottom */
@@ -57,4 +59,5 @@ h5#signInModalLabel, h5#signUpModalLabel {
     margin-top: 25px;
     font-size: small;
     font-weight: bold;
+    color: black;
 }
