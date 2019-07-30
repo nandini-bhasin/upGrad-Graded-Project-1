@@ -11,4 +11,18 @@ body{
 } 
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-                                 
+
+.postButtons {
+   height: 25rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.postBtn {
+   background-color: #D1B43A;
+   font-weight: bold;
+   font-size: small;
+   padding: 8px 15px 10px 15px;
+   margin: 5px;
+}

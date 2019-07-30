@@ -1,2 +1,23 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
+.right {
+    float: right;
+    background-color: blue;
+    color: white;
+    font-size: x-small;
+    padding: 10px 20px;
+    margin: 5px 13px 0 0;
+}
+
+.brand {
+    font-family: 'Satisfy', cursive;
+    color: 	#1632C1;
+    margin-left: 5px;
+}
+
+.subLine {
+    font-family: 'Marck Script', cursive;
+    font-size: smaller;
+    margin-left: 5px;
+}
