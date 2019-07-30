@@ -2,17 +2,21 @@
 <html>
 <head>
         
+    <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    
+	<!-- All CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
 
     <!-- Place all CSS for header in this file -->
     <link href='css\header.css' rel='stylesheet' type='text/css'>
 
-    <!-- Place all CSS for the rest of the elements in this file -->
+    <!-- All CSS for Modal in this file -->
+    <link href='css\modal.css' rel='stylesheet' type='text/css'>
+
+    <!-- All CSS for the rest of the elements in this file -->
     <link href='css\index.css' rel='stylesheet' type='text/css'>
 
-	<!-- Place all CSS for fonts in this file -->
-    <link href='css\font.css' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -24,7 +28,6 @@
             <button type="button" class="right" data-toggle="modal" data-target="#signUpModal" id="sign-up-button">Sign Up</button>
             <button type="button" class="right" data-toggle="modal" data-target="#signInModal" id="sign-in-button">Sign In</button>
             <h1 class="brand">ScriBBler</h1>
-            
             <div class="subLine">Explore. Imagine. Create</div>
 
         </div>
@@ -40,19 +43,21 @@
 
     
 
-        <!-- Insert code for Sign In modal here -->
+    <!-- Code for Sign In modal -->
     <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
+            <!-- x button to close modal -->
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true" class="close">&times;</span>
           </button>
+          <!-- Modal header -->
           <div class="modal-header">
             <h5 class="modal-title" id="signInModalLabel">Welcome Back!</h5>
-        </div>
+          </div>
           
           <div class="modal-body">
-              
+            <!-- Form in Modal body -->
             <form>
               <div class="form-group">
                 <label for="username" class="form-label">Username</label>
@@ -63,6 +68,7 @@
                 <input type="password" class="form-control form-control-lg" id="password" placeholder="Enter Password" required>
               </div>
               <button type="button" class="btn btn-success btn-lg btn-block">Sign In</button>
+              <!-- if not a member, link to sign up -->
               <div class="notMember">Not a member? <a href="#signUpModal" data-toggle="modal" data-dismiss="modal">Sign In</a></div>
             </form>
           </div>
@@ -73,20 +79,22 @@
 
     
 
-    	<!-- Insert code for Sign Up modal here -->
+    <!-- Code for Sign Up modal -->
 
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
+            <!-- x button to close modal -->
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true" class="close">&times;</span>
           </button>
+          <!-- Modal header -->
           <div class="modal-header">
             <h5 class="modal-title" id="signUpModalLabel">Get Started</h5>
-        </div>
+          </div>
           
           <div class="modal-body">
-              
+            <!-- Form in Modal body -->
             <form>
               <div class="form-group">
                 <label for="fullName" class="form-label">Full Name</label>
@@ -124,6 +132,7 @@
 	<!-- Place all Javascript for rest of the elements in this file -->
     <script src="js\index.js"></script>
 
+    <!-- CDN for jQuery, Bootstrap javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

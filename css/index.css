@@ -12,6 +12,8 @@ body{
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
 
+
+/* container for "all posts" and "create post" buttons */
 .postButtons {
    height: 25rem;
    display: flex;
@@ -19,6 +21,7 @@ body{
    align-items: center;
 }
 
+/* buttons at the center of the page - "all posts" and "create post" */
 .postBtn {
    background-color: #D1B43A;
    font-weight: bold;

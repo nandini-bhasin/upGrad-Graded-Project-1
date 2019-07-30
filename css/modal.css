@@ -1,0 +1,60 @@
+/* All the css for Modals */
+
+.modal-header {
+    display: inline;
+    border-bottom: 2px solid rgba(167, 167, 167, 0.945);
+    padding-top: 0;
+    margin: auto 15px;
+}
+
+/* Title of modal */
+h5#signInModalLabel, h5#signUpModalLabel {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: medium;
+}
+
+/* x button to close modal */
+.close {
+    float: right;
+    padding-right: 15px;
+}
+
+/* input fields of the form */
+.form-control {
+    background-color: #F1F1F1;
+    border-radius: 0;
+    border: none;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: #ddd;
+}
+
+/* labels of the form */
+.form-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    font-weight: 500;
+    padding: 0;
+}
+
+/* button at the bottom */
+.btn-success {
+    border-radius: 0;
+    font-size: x-small;
+    margin-top: 30px;
+}
+
+/* if not a member text at the bottom of sign in modal */
+.notMember {
+    text-align: center;
+    margin: 20px;
+    margin-top: 25px;
+    font-size: small;
+    font-weight: bold;
+}

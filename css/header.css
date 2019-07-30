@@ -1,6 +1,8 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
+
+/* Sign in and sign up buttons on the right */
 .right {
     float: right;
     background-color: blue;
@@ -10,72 +12,16 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     margin: 5px 13px 0 0;
 }
 
+/* Title - Scribbler */
 .brand {
     font-family: 'Satisfy', cursive;
     color: 	#1632C1;
     margin-left: 5px;
 }
 
+/* Sub-heading */
 .subLine {
     font-family: 'Marck Script', cursive;
     font-size: smaller;
     margin-left: 5px;
-}
-
-
-
-/* Modal */
-
-.modal-header {
-    display: inline;
-    border-bottom: 2px solid rgba(167, 167, 167, 0.945);
-    padding-top: 0;
-    margin: auto 15px;
-}
-
-h5#signInModalLabel, h5#signUpModalLabel {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: x-large;
-    font-weight: medium;
-}
-
-.close {
-    float: right;
-    padding-right: 15px;
-
-}
-
-.form-control {
-    background-color: #F1F1F1;
-    border-radius: 0;
-    border: none;
-    font-size: x-small;
-    font-weight: 600;
-}
-
-.form-control:focus {
-    box-shadow: none;
-    background-color: #ddd;
-}
-
-.form-label {
-    font-family: 'Oswald', sans-serif;
-    font-size: small;
-    font-weight: 500;
-    padding: 0;
-}
-
-.btn-success {
-    border-radius: 0;
-    font-size: x-small;
-    margin-top: 30px;
-}
-
-.notMember {
-    text-align: center;
-    margin: 20px;
-    margin-top: 25px;
-    font-size: small;
-    font-weight: bold;
 }
