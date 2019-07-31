@@ -8,6 +8,7 @@
 .blogText {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 28px; 
+    margin-bottom: 2rem;
 }
 
 .blogAuthor {
@@ -22,10 +23,12 @@
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
 
+/* edit or save button */
 #editBtn {
     float: right;
 }
 
+/* for all the pink buttons on the  screen */
 .pinkBtn {
     background-color: #EE3D64;
     color: white;
@@ -36,6 +39,13 @@
     box-shadow: 0px 10px 10px -5px rgba(238,61,100,0.5);
 }
 
+.pinkBtn:focus, .pinkBtn:active, .pinkBtn:hover {
+    outline: none;
+    box-shadow: 0px 10px 10px -5px rgba(238,61,100,0.5);
+    color: white;
+}
+
+/* like button */
 #likeBtn {
     padding: 8px 35px;
     border-radius: 5px;
@@ -44,12 +54,14 @@
     font-weight: 500;
 }
 
+/* place where number of likes are printed */
 #no-of-likes {
     font-family: 'Roboto Mono', monospace;
     font-size: small;
     margin-top: 10px;
 }
 
+/* comment box */
 #comment-textarea {
     font-family: 'Roboto Mono', monospace;
     font-size: x-small;
@@ -58,6 +70,7 @@
     margin: 5px 0;
 }
 
+/* comment section title - "All comments" */
 .comments-heading {
     font-family: 'Lora', serif;
     font-weight: bold;
@@ -65,6 +78,7 @@
     margin-top: 30px;
 }
 
+/* comments section to display all comments */
 .comments-container {
     background-color: #E3E4E6;
     width: 65%;
