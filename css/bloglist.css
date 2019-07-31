@@ -84,6 +84,11 @@ body {
     letter-spacing: 2px;
 }
 
+/* ... */
+.morePost {
+    cursor: pointer;
+}
+
 /* container for the paragraphs of text */
 .post-paras {    
     text-align: left;
