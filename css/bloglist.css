@@ -68,6 +68,7 @@ body {
 .trashBtn {
     float: right;
     font-size: large;
+    cursor: pointer;
 }
 
 /* 3 dots buttom or menu */
