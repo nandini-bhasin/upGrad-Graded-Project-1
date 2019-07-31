@@ -8,7 +8,7 @@
 }
 
 /* Title of modal */
-h5#signInModalLabel, h5#signUpModalLabel {
+h5#signInModalLabel, h5#signUpModalLabel, h5#createPostModalLabel {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: x-large;
@@ -34,6 +34,11 @@ h5#signInModalLabel, h5#signUpModalLabel {
 .form-control:focus {
     box-shadow: none;
     background-color: #ddd;
+}
+
+/* textarea of create post modal */
+textarea.form-control {
+    height: 150px;
 }
 
 /* labels of the form */
