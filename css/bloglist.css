@@ -1,21 +1,15 @@
+
+/* Container for each individual post */
 .post {
     position: relative;
     width: 40%;
-    /* height: 20%; */
     background: #fff;
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
-    /* margin: 10px 10px 10px 20px; */
     margin: 10px auto;
-    /* float:left; */
     border-radius: 15px;
 }
-
-@media screen and (max-width: 600px){
-    .post {
-        width: 90%;
-    }
-}
     
+/* left section of post - username display */
 .post-left {
     width: 15%;            
     max-width: 15%;
@@ -28,6 +22,7 @@
     font-size: smaller;
 }
 
+/* container for the  right side of the post */
 .post-content {
     width: 75%;           
     display: table-cell;
@@ -39,29 +34,15 @@
     padding-top: 5px;
 }
 
+/* title of the post */
 .post-title{
     font-family: 'Itim', cursive;
     font-weight: bold;
     color: #2b312b;
-    font-size: 25px;
-    /* height: 25px; */
+    /* font-size: 25px; */
+    font-size: large;
     margin-top: 20px;
 }
-
-/* .post-more {
-    float: right;
-    cursor: pointer;
-    font-size: 18px;
-    margin-right: 0 !important;
-    padding-right: 0 !important;
-    padding-bottom: 10px;
-    font-size: 30px;
-} */
-
-/* .post-desc{
-    height: 100px;
-    margin-bottom: 0 !important;
-} */
 
 body {
     height: 100%;
@@ -73,6 +54,7 @@ body {
     background-size: 2000% 2000%;
 }
 
+/* container for all posts */
 .allPostsContainer {
     height: 100%;
     width: 100%;
@@ -88,18 +70,20 @@ body {
     font-size: large;
 }
 
+/* 3 dots buttom or menu */
 .dots3 {
     background-color: #E8E8E8;
-    /* background-color: red; */
     display: flex;
     justify-content: flex-end;
     font-size: large;
     padding: 0.3rem 1rem 0.4rem 1rem;
     border-radius: 0 15px 15px 0;
     position: relative;
-    /* top: -20px; */
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
+/* container for the paragraphs of text */
 .post-paras {    
     text-align: left;
     width: 100%;
@@ -108,6 +92,36 @@ body {
     overflow: hidden;   
 }
 
+/* username at the left side */
 .post-username {
     margin-bottom: 2px;
+}
+
+
+/* media queries for different screen sizes */
+@media screen and (max-width: 600px){
+    .post-title {
+        font-size: x-small;
+    }
+    .post-desc {
+        font-size: xx-small;
+    }
+    .post-username {
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .post {
+        width: 90%;
+    }
+    .post-title {
+        font-size: small;
+    }
+    .post-desc {
+        font-size: x-small;
+    }
+    .post-username {
+        font-size: small;
+    }
 }
