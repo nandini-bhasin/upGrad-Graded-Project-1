@@ -31,6 +31,10 @@ $('#commentBtn').click(function(){
 
         $('#comment-textarea').val("");
     }
+    else{
+        $("#empty").show();
+        setTimeout(function() { $("#empty").hide(); }, 4000);
+    }
 });
 
 
